@@ -1,0 +1,168 @@
+﻿Build started 14/10/2016 11:04:52.
+     1>Project "C:\Users\Pesquisador\Documents\ContainedOculusDevelopment\ContainedOculusDevelopment\ContainedOculusDevelopment.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\Users\Pesquisador\Documents\ContainedOculusDevelopment\\ContainedOculusDevelopment\Dependencies\bullet\ /IC:\Users\Pesquisador\Documents\ContainedOculusDevelopment\\ContainedOculusDevelopment\Dependencies\ /IC:\Users\Pesquisador\Documents\ContainedOculusDevelopment\\ContainedOculusDevelopment\Dependencies\LibOVR\Include\ /IC:\Users\Pesquisador\Documents\ContainedOculusDevelopment\\ContainedOculusDevelopment\Dependencies\LibOVRKernel\Src\ /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /openmp /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\pesquisador\documents\containedoculusdevelopment\containedoculusdevelopment\Win32_GLAppUtil.h(757): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\users\pesquisador\documents\containedoculusdevelopment\containedoculusdevelopment\Win32_GLAppUtil.h(760): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\users\pesquisador\documents\containedoculusdevelopment\containedoculusdevelopment\Win32_GLAppUtil.h(763): warning C4316: 'btRigidBody::btRigidBodyConstructionInfo' : object allocated on the heap may not be aligned 16
+     1>c:\users\pesquisador\documents\containedoculusdevelopment\containedoculusdevelopment\Win32_GLAppUtil.h(1136): warning C4316: 'btRigidBody::btRigidBodyConstructionInfo' : object allocated on the heap may not be aligned 16
+     1>c:\users\pesquisador\documents\containedoculusdevelopment\containedoculusdevelopment\Win32_GLAppUtil.h(1314): warning C4316: 'btRigidBody::btRigidBodyConstructionInfo' : object allocated on the heap may not be aligned 16
+     1>c:\users\pesquisador\documents\containedoculusdevelopment\containedoculusdevelopment\Win32_GLAppUtil.h(1330): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\pesquisador\documents\containedoculusdevelopment\containedoculusdevelopment\Win32_GLAppUtil.h(1331): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\pesquisador\documents\containedoculusdevelopment\containedoculusdevelopment\Win32_GLAppUtil.h(1457): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\users\pesquisador\documents\containedoculusdevelopment\containedoculusdevelopment\Win32_GLAppUtil.h(1458): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\pesquisador\documents\containedoculusdevelopment\containedoculusdevelopment\Win32_GLAppUtil.h(1458): warning C4316: 'boxModel' : object allocated on the heap may not be aligned 16
+     1>c:\users\pesquisador\documents\containedoculusdevelopment\containedoculusdevelopment\Win32_GLAppUtil.h(1519): warning C4316: 'MyDots' : object allocated on the heap may not be aligned 16
+     1>c:\users\pesquisador\documents\containedoculusdevelopment\containedoculusdevelopment\Win32_GLAppUtil.h(1579): warning C4305: 'argument' : truncation from 'double' to 'const btScalar'
+     1>c:\users\pesquisador\documents\containedoculusdevelopment\containedoculusdevelopment\Win32_GLAppUtil.h(1614): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\pesquisador\documents\containedoculusdevelopment\containedoculusdevelopment\Win32_GLAppUtil.h(1614): warning C4316: 'SphereModel' : object allocated on the heap may not be aligned 16
+     1>c:\users\pesquisador\documents\containedoculusdevelopment\containedoculusdevelopment\Win32_GLAppUtil.h(1635): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\users\pesquisador\documents\containedoculusdevelopment\containedoculusdevelopment\Win32_GLAppUtil.h(1636): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\pesquisador\documents\containedoculusdevelopment\containedoculusdevelopment\Win32_GLAppUtil.h(1636): warning C4316: 'boxModel' : object allocated on the heap may not be aligned 16
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Pesquisador\Documents\ContainedOculusDevelopment\Release\ContainedOculusDevelopment.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\Users\Pesquisador\Documents\ContainedOculusDevelopment\\ContainedOculusDevelopment\Dependencies\glew /LIBPATH:C:\Users\Pesquisador\Documents\ContainedOculusDevelopment\\ContainedOculusDevelopment\Dependencies\freeglut freeglut.lib glew32.lib opengl32.lib C:\Users\Pesquisador\Documents\ContainedOculusDevelopment\\ContainedOculusDevelopment\Dependencies\LibOVRKernel\Lib\Windows\Win32\Release\VS2013\LibOVRKernel.lib C:\Users\Pesquisador\Documents\ContainedOculusDevelopment\\ContainedOculusDevelopment\Dependencies\LibOVR\Lib\Windows\Win32\Release\VS2013\LibOVR.lib kinect20.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Pesquisador\Documents\ContainedOculusDevelopment\Release\ContainedOculusDevelopment.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Pesquisador\Documents\ContainedOculusDevelopment\Release\ContainedOculusDevelopment.lib" /MACHINE:X86 /SAFESEH Release\btAxisSweep3.obj
+         Release\btBroadphaseProxy.obj
+         Release\btCollisionAlgorithm.obj
+         Release\btDbvt.obj
+         Release\btDbvtBroadphase.obj
+         Release\btDispatcher.obj
+         Release\btMultiSapBroadphase.obj
+         Release\btOverlappingPairCache.obj
+         Release\btQuantizedBvh.obj
+         Release\btSimpleBroadphase.obj
+         Release\btActivatingCollisionAlgorithm.obj
+         Release\btBox2dBox2dCollisionAlgorithm.obj
+         Release\btBoxBoxCollisionAlgorithm.obj
+         Release\btBoxBoxDetector.obj
+         Release\btCollisionDispatcher.obj
+         Release\btCollisionObject.obj
+         Release\btCollisionWorld.obj
+         Release\btCollisionWorldImporter.obj
+         Release\btCompoundCollisionAlgorithm.obj
+         Release\btCompoundCompoundCollisionAlgorithm.obj
+         Release\btConvex2dConvex2dAlgorithm.obj
+         Release\btConvexConcaveCollisionAlgorithm.obj
+         Release\btConvexConvexAlgorithm.obj
+         Release\btConvexPlaneCollisionAlgorithm.obj
+         Release\btDefaultCollisionConfiguration.obj
+         Release\btEmptyCollisionAlgorithm.obj
+         Release\btGhostObject.obj
+         Release\btHashedSimplePairCache.obj
+         Release\btInternalEdgeUtility.obj
+         Release\btManifoldResult.obj
+         Release\btSimulationIslandManager.obj
+         Release\btSphereBoxCollisionAlgorithm.obj
+         Release\btSphereSphereCollisionAlgorithm.obj
+         Release\btSphereTriangleCollisionAlgorithm.obj
+         Release\btUnionFind.obj
+         Release\SphereTriangleDetector.obj
+         Release\btBox2dShape.obj
+         Release\btBoxShape.obj
+         Release\btBvhTriangleMeshShape.obj
+         Release\btCapsuleShape.obj
+         Release\btCollisionShape.obj
+         Release\btCompoundShape.obj
+         Release\btConcaveShape.obj
+         Release\btConeShape.obj
+         Release\btConvex2dShape.obj
+         Release\btConvexHullShape.obj
+         Release\btConvexInternalShape.obj
+         Release\btConvexPointCloudShape.obj
+         Release\btConvexPolyhedron.obj
+         Release\btConvexShape.obj
+         Release\btConvexTriangleMeshShape.obj
+         Release\btCylinderShape.obj
+         Release\btEmptyShape.obj
+         Release\btHeightfieldTerrainShape.obj
+         Release\btMinkowskiSumShape.obj
+         Release\btMultimaterialTriangleMeshShape.obj
+         Release\btMultiSphereShape.obj
+         Release\btOptimizedBvh.obj
+         Release\btPolyhedralConvexShape.obj
+         Release\btScaledBvhTriangleMeshShape.obj
+         Release\btShapeHull.obj
+         Release\btSphereShape.obj
+         Release\btStaticPlaneShape.obj
+         Release\btStridingMeshInterface.obj
+         Release\btTetrahedronShape.obj
+         Release\btTriangleBuffer.obj
+         Release\btTriangleCallback.obj
+         Release\btTriangleIndexVertexArray.obj
+         Release\btTriangleIndexVertexMaterialArray.obj
+         Release\btTriangleMesh.obj
+         Release\btTriangleMeshShape.obj
+         Release\btUniformScalingShape.obj
+         Release\btContactProcessing.obj
+         Release\btGenericPoolAllocator.obj
+         Release\btGImpactBvh.obj
+         Release\btGImpactCollisionAlgorithm.obj
+         Release\btGImpactQuantizedBvh.obj
+         Release\btGImpactShape.obj
+         Release\btTriangleShapeEx.obj
+         Release\gim_box_set.obj
+         Release\gim_contact.obj
+         Release\gim_memory.obj
+         Release\gim_tri_collision.obj
+         Release\btContinuousConvexCollision.obj
+         Release\btConvexCast.obj
+         Release\btGjkConvexCast.obj
+         Release\btGjkEpa2.obj
+         Release\btGjkEpaPenetrationDepthSolver.obj
+         Release\btGjkPairDetector.obj
+         Release\btMinkowskiPenetrationDepthSolver.obj
+         Release\btPersistentManifold.obj
+         Release\btPolyhedralContactClipping.obj
+         Release\btRaycastCallback.obj
+         Release\btSubSimplexConvexCast.obj
+         Release\btVoronoiSimplexSolver.obj
+         Release\btKinematicCharacterController.obj
+         Release\btConeTwistConstraint.obj
+         Release\btContactConstraint.obj
+         Release\btFixedConstraint.obj
+         Release\btGearConstraint.obj
+         Release\btGeneric6DofConstraint.obj
+         Release\btGeneric6DofSpring2Constraint.obj
+         Release\btGeneric6DofSpringConstraint.obj
+         Release\btHinge2Constraint.obj
+         Release\btHingeConstraint.obj
+         Release\btNNCGConstraintSolver.obj
+         Release\btPoint2PointConstraint.obj
+         Release\btSequentialImpulseConstraintSolver.obj
+         Release\btSliderConstraint.obj
+         Release\btSolve2LinearConstraint.obj
+         Release\btTypedConstraint.obj
+         Release\btUniversalConstraint.obj
+         Release\btDiscreteDynamicsWorld.obj
+         Release\btRigidBody.obj
+         Release\btSimpleDynamicsWorld.obj
+         Release\btMultiBody.obj
+         Release\btMultiBodyConstraint.obj
+         Release\btMultiBodyConstraintSolver.obj
+         Release\btMultiBodyDynamicsWorld.obj
+         Release\btMultiBodyJointLimitConstraint.obj
+         Release\btMultiBodyJointMotor.obj
+         Release\btMultiBodyPoint2Point.obj
+         Release\btDantzigLCP.obj
+         Release\btLemkeAlgorithm.obj
+         Release\btMLCPSolver.obj
+         Release\btRaycastVehicle.obj
+         Release\btWheelInfo.obj
+         Release\btAlignedAllocator.obj
+         Release\btConvexHull.obj
+         Release\btConvexHullComputer.obj
+         Release\btGeometryUtil.obj
+         Release\btPolarDecomposition.obj
+         Release\btQuickprof.obj
+         Release\btSerializer.obj
+         Release\btVector3.obj
+         Release\KinectHandler.obj
+         Release\main.obj
+         Generating code
+         Finished generating code
+         ContainedOculusDevelopment.vcxproj -> C:\Users\Pesquisador\Documents\ContainedOculusDevelopment\Release\ContainedOculusDevelopment.exe
+     1>Done Building Project "C:\Users\Pesquisador\Documents\ContainedOculusDevelopment\ContainedOculusDevelopment\ContainedOculusDevelopment.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:08.86

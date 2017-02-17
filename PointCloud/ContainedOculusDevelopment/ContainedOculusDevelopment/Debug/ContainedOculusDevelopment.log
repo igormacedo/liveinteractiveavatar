@@ -1,0 +1,11 @@
+﻿Build started 17/02/2016 09:13:39.
+     1>Project "c:\Users\pesquisador\documents\visual studio 2013\Projects\ContainedOculusDevelopment\ContainedOculusDevelopment\ContainedOculusDevelopment.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\Pesquisador\Documents\Visual Studio 2013\Projects\ContainedOculusDevelopment\ContainedOculusDevelopment\Dependencies" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\pesquisador\documents\visual studio 2013\projects\containedoculusdevelopment\containedoculusdevelopment\dependencies\libovrkernel\src\gl\capi_gle.h(29): fatal error C1083: Cannot open include file: 'Kernel/OVR_Types.h': No such file or directory
+     1>Done Building Project "c:\Users\pesquisador\documents\visual studio 2013\Projects\ContainedOculusDevelopment\ContainedOculusDevelopment\ContainedOculusDevelopment.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.12

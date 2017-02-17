@@ -1,0 +1,1074 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Bullet Engine">
+      <UniqueIdentifier>{8b82bc11-9ed1-4c1a-9321-e3bc0f07d9a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Bullet Engine\Source">
+      <UniqueIdentifier>{b7cb0f77-c01f-4a28-8c44-3e137c0a1ed6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Bullet Engine\Header">
+      <UniqueIdentifier>{152e2d82-6e50-41c6-9fe0-956c36d7ce1a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="KinectHandler.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\BulletCollision\CollisionDispatch\btActivatingCollisionAlgorithm.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\LinearMath\btAlignedAllocator.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\BulletCollision\BroadphaseCollision\btAxisSweep3.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\BulletCollision\CollisionDispatch\btBox2dBox2dCollisionAlgorithm.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\BulletCollision\CollisionShapes\btBox2dShape.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\BulletCollision\CollisionDispatch\btBoxBoxCollisionAlgorithm.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\BulletCollision\CollisionDispatch\btBoxBoxDetector.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\BulletCollision\CollisionShapes\btBoxShape.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\BulletCollision\BroadphaseCollision\btBroadphaseProxy.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\BulletCollision\CollisionShapes\btBvhTriangleMeshShape.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\BulletCollision\CollisionShapes\btCapsuleShape.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\BulletCollision\BroadphaseCollision\btCollisionAlgorithm.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\BulletCollision\CollisionDispatch\btCollisionDispatcher.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\BulletCollision\CollisionDispatch\btCollisionObject.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\BulletCollision\CollisionShapes\btCollisionShape.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\BulletCollision\CollisionDispatch\btCollisionWorld.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\BulletCollision\CollisionDispatch\btCollisionWorldImporter.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\BulletCollision\CollisionDispatch\btCompoundCollisionAlgorithm.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\BulletCollision\CollisionDispatch\btCompoundCompoundCollisionAlgorithm.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\BulletCollision\CollisionShapes\btCompoundShape.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\BulletCollision\CollisionShapes\btConcaveShape.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\BulletCollision\CollisionShapes\btConeShape.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\BulletDynamics\ConstraintSolver\btConeTwistConstraint.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\BulletDynamics\ConstraintSolver\btContactConstraint.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\BulletCollision\Gimpact\btContactProcessing.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\BulletCollision\NarrowPhaseCollision\btContinuousConvexCollision.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\BulletCollision\CollisionDispatch\btConvex2dConvex2dAlgorithm.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\BulletCollision\CollisionShapes\btConvex2dShape.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\BulletCollision\NarrowPhaseCollision\btConvexCast.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\BulletCollision\CollisionDispatch\btConvexConcaveCollisionAlgorithm.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\BulletCollision\CollisionDispatch\btConvexConvexAlgorithm.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\LinearMath\btConvexHull.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\LinearMath\btConvexHullComputer.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\BulletCollision\CollisionShapes\btConvexHullShape.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\BulletCollision\CollisionShapes\btConvexInternalShape.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\BulletCollision\CollisionDispatch\btConvexPlaneCollisionAlgorithm.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\BulletCollision\CollisionShapes\btConvexPointCloudShape.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\BulletCollision\CollisionShapes\btConvexPolyhedron.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\BulletCollision\CollisionShapes\btConvexShape.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\BulletCollision\CollisionShapes\btConvexTriangleMeshShape.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\BulletCollision\CollisionShapes\btCylinderShape.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\BulletDynamics\MLCPSolvers\btDantzigLCP.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\BulletCollision\BroadphaseCollision\btDbvt.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\BulletCollision\BroadphaseCollision\btDbvtBroadphase.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\BulletCollision\CollisionDispatch\btDefaultCollisionConfiguration.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\BulletDynamics\Dynamics\btDiscreteDynamicsWorld.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\BulletCollision\BroadphaseCollision\btDispatcher.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\BulletCollision\CollisionDispatch\btEmptyCollisionAlgorithm.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\BulletCollision\CollisionShapes\btEmptyShape.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\BulletDynamics\ConstraintSolver\btFixedConstraint.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\BulletDynamics\ConstraintSolver\btGearConstraint.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\BulletDynamics\ConstraintSolver\btGeneric6DofConstraint.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\BulletDynamics\ConstraintSolver\btGeneric6DofSpring2Constraint.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\BulletDynamics\ConstraintSolver\btGeneric6DofSpringConstraint.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\BulletCollision\Gimpact\btGenericPoolAllocator.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\LinearMath\btGeometryUtil.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\BulletCollision\CollisionDispatch\btGhostObject.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\BulletCollision\Gimpact\btGImpactBvh.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\BulletCollision\Gimpact\btGImpactCollisionAlgorithm.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\BulletCollision\Gimpact\btGImpactQuantizedBvh.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\BulletCollision\Gimpact\btGImpactShape.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\BulletCollision\NarrowPhaseCollision\btGjkConvexCast.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\BulletCollision\NarrowPhaseCollision\btGjkEpa2.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\BulletCollision\NarrowPhaseCollision\btGjkEpaPenetrationDepthSolver.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\BulletCollision\NarrowPhaseCollision\btGjkPairDetector.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\BulletCollision\CollisionDispatch\btHashedSimplePairCache.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\BulletCollision\CollisionShapes\btHeightfieldTerrainShape.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\BulletDynamics\ConstraintSolver\btHinge2Constraint.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\BulletDynamics\ConstraintSolver\btHingeConstraint.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\BulletCollision\CollisionDispatch\btInternalEdgeUtility.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\BulletDynamics\Character\btKinematicCharacterController.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\BulletDynamics\MLCPSolvers\btLemkeAlgorithm.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\BulletCollision\CollisionDispatch\btManifoldResult.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\BulletCollision\NarrowPhaseCollision\btMinkowskiPenetrationDepthSolver.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\BulletCollision\CollisionShapes\btMinkowskiSumShape.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\BulletDynamics\MLCPSolvers\btMLCPSolver.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\BulletDynamics\Featherstone\btMultiBody.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\BulletDynamics\Featherstone\btMultiBodyConstraint.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\BulletDynamics\Featherstone\btMultiBodyConstraintSolver.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\BulletDynamics\Featherstone\btMultiBodyDynamicsWorld.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\BulletDynamics\Featherstone\btMultiBodyJointLimitConstraint.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\BulletDynamics\Featherstone\btMultiBodyJointMotor.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\BulletDynamics\Featherstone\btMultiBodyPoint2Point.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\BulletCollision\CollisionShapes\btMultimaterialTriangleMeshShape.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\BulletCollision\BroadphaseCollision\btMultiSapBroadphase.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\BulletCollision\CollisionShapes\btMultiSphereShape.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\BulletDynamics\ConstraintSolver\btNNCGConstraintSolver.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\BulletCollision\CollisionShapes\btOptimizedBvh.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\BulletCollision\BroadphaseCollision\btOverlappingPairCache.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\BulletCollision\NarrowPhaseCollision\btPersistentManifold.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\BulletDynamics\ConstraintSolver\btPoint2PointConstraint.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\LinearMath\btPolarDecomposition.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\BulletCollision\NarrowPhaseCollision\btPolyhedralContactClipping.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\BulletCollision\CollisionShapes\btPolyhedralConvexShape.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\BulletCollision\BroadphaseCollision\btQuantizedBvh.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\LinearMath\btQuickprof.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\BulletCollision\NarrowPhaseCollision\btRaycastCallback.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\BulletDynamics\Vehicle\btRaycastVehicle.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\BulletDynamics\Dynamics\btRigidBody.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\BulletCollision\CollisionShapes\btScaledBvhTriangleMeshShape.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\BulletDynamics\ConstraintSolver\btSequentialImpulseConstraintSolver.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\LinearMath\btSerializer.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\BulletCollision\CollisionShapes\btShapeHull.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\BulletCollision\BroadphaseCollision\btSimpleBroadphase.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\BulletDynamics\Dynamics\btSimpleDynamicsWorld.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\BulletCollision\CollisionDispatch\btSimulationIslandManager.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\BulletDynamics\ConstraintSolver\btSliderConstraint.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\BulletDynamics\ConstraintSolver\btSolve2LinearConstraint.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\BulletCollision\CollisionDispatch\btSphereBoxCollisionAlgorithm.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\BulletCollision\CollisionShapes\btSphereShape.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\BulletCollision\CollisionDispatch\btSphereSphereCollisionAlgorithm.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\BulletCollision\CollisionDispatch\btSphereTriangleCollisionAlgorithm.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\BulletCollision\CollisionShapes\btStaticPlaneShape.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\BulletCollision\CollisionShapes\btStridingMeshInterface.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\BulletCollision\NarrowPhaseCollision\btSubSimplexConvexCast.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\BulletCollision\CollisionShapes\btTetrahedronShape.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\BulletCollision\CollisionShapes\btTriangleBuffer.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\BulletCollision\CollisionShapes\btTriangleCallback.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\BulletCollision\CollisionShapes\btTriangleIndexVertexArray.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\BulletCollision\CollisionShapes\btTriangleIndexVertexMaterialArray.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\BulletCollision\CollisionShapes\btTriangleMesh.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\BulletCollision\CollisionShapes\btTriangleMeshShape.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\BulletCollision\Gimpact\btTriangleShapeEx.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\BulletDynamics\ConstraintSolver\btTypedConstraint.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\BulletCollision\CollisionShapes\btUniformScalingShape.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\BulletCollision\CollisionDispatch\btUnionFind.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\BulletDynamics\ConstraintSolver\btUniversalConstraint.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\LinearMath\btVector3.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\BulletCollision\NarrowPhaseCollision\btVoronoiSimplexSolver.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\BulletDynamics\Vehicle\btWheelInfo.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\BulletCollision\Gimpact\gim_box_set.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\BulletCollision\Gimpact\gim_contact.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\BulletCollision\Gimpact\gim_memory.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\BulletCollision\Gimpact\gim_tri_collision.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Dependencies\bullet\BulletCollision\CollisionDispatch\SphereTriangleDetector.cpp">
+      <Filter>Bullet Engine\Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="KinectHandler.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Win32_GLAppUtil.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\LinearMath\btAabbUtil2.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletDynamics\Dynamics\btActionInterface.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletCollision\CollisionDispatch\btActivatingCollisionAlgorithm.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\LinearMath\btAlignedAllocator.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\LinearMath\btAlignedObjectArray.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletCollision\BroadphaseCollision\btAxisSweep3.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletCollision\CollisionDispatch\btBox2dBox2dCollisionAlgorithm.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletCollision\CollisionShapes\btBox2dShape.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletCollision\CollisionDispatch\btBoxBoxCollisionAlgorithm.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletCollision\CollisionDispatch\btBoxBoxDetector.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletCollision\Gimpact\btBoxCollision.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletCollision\CollisionShapes\btBoxShape.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletCollision\BroadphaseCollision\btBroadphaseInterface.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletCollision\BroadphaseCollision\btBroadphaseProxy.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletCollision\CollisionShapes\btBvhTriangleMeshShape.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletCollision\CollisionShapes\btCapsuleShape.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletDynamics\Character\btCharacterControllerInterface.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletCollision\Gimpact\btClipPolygon.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletCollision\BroadphaseCollision\btCollisionAlgorithm.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletCollision\CollisionDispatch\btCollisionConfiguration.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletCollision\CollisionDispatch\btCollisionCreateFunc.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletCollision\CollisionDispatch\btCollisionDispatcher.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletCollision\CollisionShapes\btCollisionMargin.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletCollision\CollisionDispatch\btCollisionObject.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletCollision\CollisionDispatch\btCollisionObjectWrapper.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletCollision\CollisionShapes\btCollisionShape.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletCollision\CollisionDispatch\btCollisionWorld.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletCollision\CollisionDispatch\btCollisionWorldImporter.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletCollision\CollisionDispatch\btCompoundCollisionAlgorithm.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletCollision\CollisionDispatch\btCompoundCompoundCollisionAlgorithm.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletCollision\Gimpact\btCompoundFromGimpact.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletCollision\CollisionShapes\btCompoundShape.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletCollision\NarrowPhaseCollision\btComputeGjkEpaPenetration.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletCollision\CollisionShapes\btConcaveShape.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletCollision\CollisionShapes\btConeShape.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletDynamics\ConstraintSolver\btConeTwistConstraint.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletDynamics\ConstraintSolver\btConstraintSolver.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletDynamics\ConstraintSolver\btContactConstraint.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletCollision\Gimpact\btContactProcessing.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletDynamics\ConstraintSolver\btContactSolverInfo.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletCollision\NarrowPhaseCollision\btContinuousConvexCollision.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletCollision\CollisionDispatch\btConvex2dConvex2dAlgorithm.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletCollision\CollisionShapes\btConvex2dShape.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletCollision\NarrowPhaseCollision\btConvexCast.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletCollision\CollisionDispatch\btConvexConcaveCollisionAlgorithm.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletCollision\CollisionDispatch\btConvexConvexAlgorithm.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\LinearMath\btConvexHull.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\LinearMath\btConvexHullComputer.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletCollision\CollisionShapes\btConvexHullShape.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletCollision\CollisionShapes\btConvexInternalShape.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletCollision\NarrowPhaseCollision\btConvexPenetrationDepthSolver.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletCollision\CollisionDispatch\btConvexPlaneCollisionAlgorithm.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletCollision\CollisionShapes\btConvexPointCloudShape.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletCollision\CollisionShapes\btConvexPolyhedron.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletCollision\CollisionShapes\btConvexShape.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletCollision\CollisionShapes\btConvexTriangleMeshShape.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\LinearMath\btCpuFeatureUtility.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletCollision\CollisionShapes\btCylinderShape.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletDynamics\MLCPSolvers\btDantzigLCP.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletDynamics\MLCPSolvers\btDantzigSolver.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletCollision\BroadphaseCollision\btDbvt.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletCollision\BroadphaseCollision\btDbvtBroadphase.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletCollision\CollisionDispatch\btDefaultCollisionConfiguration.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\LinearMath\btDefaultMotionState.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletCollision\NarrowPhaseCollision\btDiscreteCollisionDetectorInterface.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletDynamics\Dynamics\btDiscreteDynamicsWorld.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletCollision\BroadphaseCollision\btDispatcher.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletDynamics\Dynamics\btDynamicsWorld.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletCollision\CollisionDispatch\btEmptyCollisionAlgorithm.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletCollision\CollisionShapes\btEmptyShape.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletDynamics\ConstraintSolver\btFixedConstraint.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletDynamics\ConstraintSolver\btGearConstraint.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletDynamics\ConstraintSolver\btGeneric6DofConstraint.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletDynamics\ConstraintSolver\btGeneric6DofSpring2Constraint.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletDynamics\ConstraintSolver\btGeneric6DofSpringConstraint.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletCollision\Gimpact\btGenericPoolAllocator.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletCollision\Gimpact\btGeometryOperations.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\LinearMath\btGeometryUtil.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletCollision\CollisionDispatch\btGhostObject.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletCollision\Gimpact\btGImpactBvh.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletCollision\Gimpact\btGImpactCollisionAlgorithm.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletCollision\Gimpact\btGImpactMassUtil.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletCollision\Gimpact\btGImpactQuantizedBvh.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletCollision\Gimpact\btGImpactShape.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletCollision\NarrowPhaseCollision\btGjkCollisionDescription.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletCollision\NarrowPhaseCollision\btGjkConvexCast.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletCollision\NarrowPhaseCollision\btGjkEpa2.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletCollision\NarrowPhaseCollision\btGjkEpa3.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletCollision\NarrowPhaseCollision\btGjkEpaPenetrationDepthSolver.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletCollision\NarrowPhaseCollision\btGjkPairDetector.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\LinearMath\btGrahamScan2dConvexHull.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletCollision\CollisionDispatch\btHashedSimplePairCache.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\LinearMath\btHashMap.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletCollision\CollisionShapes\btHeightfieldTerrainShape.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletDynamics\ConstraintSolver\btHinge2Constraint.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletDynamics\ConstraintSolver\btHingeConstraint.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\LinearMath\btIDebugDraw.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletCollision\CollisionDispatch\btInternalEdgeUtility.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletDynamics\ConstraintSolver\btJacobianEntry.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletDynamics\Character\btKinematicCharacterController.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletDynamics\MLCPSolvers\btLemkeAlgorithm.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletDynamics\MLCPSolvers\btLemkeSolver.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\LinearMath\btList.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletCollision\NarrowPhaseCollision\btManifoldPoint.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletCollision\CollisionDispatch\btManifoldResult.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletCollision\CollisionShapes\btMaterial.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\LinearMath\btMatrix3x3.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\LinearMath\btMatrixX.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletCollision\NarrowPhaseCollision\btMinkowskiPenetrationDepthSolver.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletCollision\CollisionShapes\btMinkowskiSumShape.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\LinearMath\btMinMax.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletDynamics\MLCPSolvers\btMLCPSolver.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletDynamics\MLCPSolvers\btMLCPSolverInterface.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\LinearMath\btMotionState.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletCollision\NarrowPhaseCollision\btMprPenetration.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletDynamics\Featherstone\btMultiBody.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletDynamics\Featherstone\btMultiBodyConstraint.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletDynamics\Featherstone\btMultiBodyConstraintSolver.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletDynamics\Featherstone\btMultiBodyDynamicsWorld.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletDynamics\Featherstone\btMultiBodyJointFeedback.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletDynamics\Featherstone\btMultiBodyJointLimitConstraint.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletDynamics\Featherstone\btMultiBodyJointMotor.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletDynamics\Featherstone\btMultiBodyLink.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletDynamics\Featherstone\btMultiBodyLinkCollider.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletDynamics\Featherstone\btMultiBodyPoint2Point.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletDynamics\Featherstone\btMultiBodySolverConstraint.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletCollision\CollisionShapes\btMultimaterialTriangleMeshShape.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletCollision\BroadphaseCollision\btMultiSapBroadphase.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletCollision\CollisionShapes\btMultiSphereShape.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletDynamics\ConstraintSolver\btNNCGConstraintSolver.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletCollision\CollisionShapes\btOptimizedBvh.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletCollision\BroadphaseCollision\btOverlappingPairCache.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletCollision\BroadphaseCollision\btOverlappingPairCallback.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletDynamics\MLCPSolvers\btPATHSolver.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletCollision\NarrowPhaseCollision\btPersistentManifold.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletDynamics\ConstraintSolver\btPoint2PointConstraint.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletCollision\NarrowPhaseCollision\btPointCollector.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\LinearMath\btPolarDecomposition.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletCollision\NarrowPhaseCollision\btPolyhedralContactClipping.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletCollision\CollisionShapes\btPolyhedralConvexShape.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\LinearMath\btPoolAllocator.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\LinearMath\btQuadWord.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletCollision\Gimpact\btQuantization.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletCollision\BroadphaseCollision\btQuantizedBvh.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\LinearMath\btQuaternion.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\LinearMath\btQuickprof.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\LinearMath\btRandom.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletCollision\NarrowPhaseCollision\btRaycastCallback.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletDynamics\Vehicle\btRaycastVehicle.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletDynamics\Dynamics\btRigidBody.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\LinearMath\btScalar.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletCollision\CollisionShapes\btScaledBvhTriangleMeshShape.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletDynamics\ConstraintSolver\btSequentialImpulseConstraintSolver.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\LinearMath\btSerializer.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletCollision\CollisionShapes\btShapeHull.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletCollision\BroadphaseCollision\btSimpleBroadphase.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletDynamics\Dynamics\btSimpleDynamicsWorld.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletCollision\NarrowPhaseCollision\btSimplexSolverInterface.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletCollision\CollisionDispatch\btSimulationIslandManager.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletDynamics\ConstraintSolver\btSliderConstraint.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletDynamics\ConstraintSolver\btSolve2LinearConstraint.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletDynamics\MLCPSolvers\btSolveProjectedGaussSeidel.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletDynamics\ConstraintSolver\btSolverBody.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletDynamics\ConstraintSolver\btSolverConstraint.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\LinearMath\btSpatialAlgebra.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletCollision\CollisionDispatch\btSphereBoxCollisionAlgorithm.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletCollision\CollisionShapes\btSphereShape.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletCollision\CollisionDispatch\btSphereSphereCollisionAlgorithm.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletCollision\CollisionDispatch\btSphereTriangleCollisionAlgorithm.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\LinearMath\btStackAlloc.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletCollision\CollisionShapes\btStaticPlaneShape.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletCollision\CollisionShapes\btStridingMeshInterface.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletCollision\NarrowPhaseCollision\btSubSimplexConvexCast.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletCollision\CollisionShapes\btTetrahedronShape.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\LinearMath\btTransform.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\LinearMath\btTransformUtil.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletCollision\CollisionShapes\btTriangleBuffer.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletCollision\CollisionShapes\btTriangleCallback.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletCollision\CollisionShapes\btTriangleIndexVertexArray.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletCollision\CollisionShapes\btTriangleIndexVertexMaterialArray.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletCollision\CollisionShapes\btTriangleInfoMap.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletCollision\CollisionShapes\btTriangleMesh.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletCollision\CollisionShapes\btTriangleMeshShape.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletCollision\CollisionShapes\btTriangleShape.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletCollision\Gimpact\btTriangleShapeEx.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletDynamics\ConstraintSolver\btTypedConstraint.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletCollision\CollisionShapes\btUniformScalingShape.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletCollision\CollisionDispatch\btUnionFind.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletDynamics\ConstraintSolver\btUniversalConstraint.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\LinearMath\btVector3.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletDynamics\Vehicle\btVehicleRaycaster.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletCollision\NarrowPhaseCollision\btVoronoiSimplexSolver.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletDynamics\Vehicle\btWheelInfo.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletCollision\Gimpact\gim_array.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletCollision\Gimpact\gim_basic_geometry_operations.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletCollision\Gimpact\gim_bitset.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletCollision\Gimpact\gim_box_collision.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletCollision\Gimpact\gim_box_set.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletCollision\Gimpact\gim_clip_polygon.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletCollision\Gimpact\gim_contact.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletCollision\Gimpact\gim_geom_types.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletCollision\Gimpact\gim_geometry.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletCollision\Gimpact\gim_hash_table.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletCollision\Gimpact\gim_linear_math.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletCollision\Gimpact\gim_math.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletCollision\Gimpact\gim_memory.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletCollision\Gimpact\gim_radixsort.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletCollision\Gimpact\gim_tri_collision.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependencies\bullet\BulletCollision\CollisionDispatch\SphereTriangleDetector.h">
+      <Filter>Bullet Engine\Header</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
